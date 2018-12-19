@@ -1,0 +1,16 @@
+{
+  "/api/login": {
+    "caller": "lib.Login",
+    "method": "POST"
+   },
+  "/api/{hospital_id}": {
+    "caller": "lib.GetHospitalDetails",
+    "method": "GET"
+  },
+  "/api/{hospital_id}": {
+    "caller": "lib.AddEntertainmentData",
+    "method": "POST"
+  }
+}
+
+
